@@ -18,8 +18,11 @@ def julius_recv(callback):
 			if n < 0: continue
 			line = tmp[:n].decode("utf-8")
 			tmp = tmp[n+3:]
-
-			root = ET.fromstring(line)
+			try:
+				root = ET.fromstring(line)
+			except xml.etree.ElementTree.ParseError:
+				print("line={}".format(line))
+				print("julius_cli.py ERROR")
 			if root.tag != "RECOGOUT": continue
 			shypo = root[0]
 
