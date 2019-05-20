@@ -29,7 +29,7 @@ order to make and to execute
 	  julius-dict/  
   
 ls -l 
-=====  
+==============  
 別途インストールするディレクトリ  
 	#drwxr-xr-x 22 pi pi  4096 11月  5  2018 julius-4.4.2.1  
 	#drwxr-xr-x  6 pi pi  4096 11月 17  2016 julius-dict  
@@ -58,6 +58,7 @@ MAX31856で温度を計測するライブラリ
 バージョン管理  
 	-rw-r--r--  1 pi pi  2306  5月 20 13:03 CHANGELOG.md  
 	-rw-r--r--  1 pi pi     6  5月 20 13:03 VERSION  
+  
 以下は必要なし  
 ==============  
 pythonライブラリ(自動生成)  
