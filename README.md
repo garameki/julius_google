@@ -8,4 +8,14 @@ order to make and to execute
 4. execute bash julius-meirei.sh
 5. execute python3 hear.py
 6. execute python3 answer.py
+  
+置く場所  
+========  
+	~/src/julius_google/  
+  
+説明  
+=====  
+	喋りかけると音声で返す  
+	マイク付きのUSBカメラでも使える  
+  
 
