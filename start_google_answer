@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sleep 7s
+python3 answer.py

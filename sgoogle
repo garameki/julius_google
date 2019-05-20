@@ -1,0 +1,7 @@
+#!/bin/bash
+
+nohup bash julius-module.sh > t > tt < /dev/null &
+sleep 5s
+nohup python3 hear.py > t > tt < /dev/null &
+sleep 1s
+nohup python3 answer.py > t > tt < /dev/null
